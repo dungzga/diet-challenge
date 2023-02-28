@@ -1,0 +1,13 @@
+.App{
+  display:grid;
+  grid-template-columns: 20% 80%;
+}
+.sidebar{
+  grid-column: 1 / 2;
+  height: 100vh;
+}
+.maincontent{
+  background-color: #fef9ee;
+  position: relative;
+  height: 100vh;
+}
